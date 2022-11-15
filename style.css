@@ -1,7 +1,7 @@
 html {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    height: 300vh;
+    height: 800vh;
 }
 
 .font-primary {
@@ -66,5 +66,23 @@ html {
         height: 20rem;
         width: 20rem;
     }
+}
+
+.social-links {
+    margin-left: 1rem;
+}
+
+.social-links:nth-child(1) {
+    margin-left: 0;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    color: white;
+    transition: color 250ms ease-in-out;
+}
+
+.social-links a:hover {
+    color: #F5E536;
 }
 
