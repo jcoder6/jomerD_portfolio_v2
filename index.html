@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="navbar-fixed-top.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Jomer Dorego</title>     
+</head>
+<body class="bg-color-main">
+    <div class="hero-img">
+        <img src="./imgs/hero-img.webp" alt="Hero Image">
+    </div>  
+    <nav class="navbar navbar-expand-md navbar-fixed-top border-bottom border-danger border-1">
+        <div class="container">
+            <a href="#" class="navbar-brand font-primary color-1 text-uppercase">Jomer Dorego</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-row-reverse" id="nav">
+                <ul class="navbar-nav">
+                    <li class="navbar-item"><a href="#about" class="nav-link text-light fw-semibold">About</a></li>
+                    <li class="nav-item"><a href="#project" class="nav-link text-light fw-semibold">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link text-light fw-semibold">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+
+    <section class="home" id="home">
+        <div class="container mb-5 text-white main-page d-flex flex-column align-items-center align-items-md-start justify-content-center">
+            <div class="row">
+                <h4 class="fs-5">Hi! I'm Jomer,</h4>
+            </div>
+            <div class="row mb-2 mb-md-5 text-center text-md-start">
+                <h1 class="text-uppercase">I create meaningful and delightful digital experience.</h1>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <a href="#contact"><button class="cta button button-primary p-2 px-3 px-md-5 border-0 bg-color-secondary">Let's talk</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project" id="project">
+        <div class="container mt-5 mb-5 text-light">
+            <h4 class="fs-5 mt-5 mb-5">Recent Projects</h4>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="card text-bg-dark">
+                        <img src="./imgs/project-dummy-img1.webp" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="card text-bg-dark">
+                        <img src="./imgs/project-dummy-img1.webp" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="card text-bg-dark">
+                        <img src="./imgs/project-dummy-img1.webp" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about mb-5 mt-5" id="about">
+        <div class="container text-light text-center text-md-start">
+            <div class="row">
+                <div class="col-12 col-md-6 align-self-center">
+                    <h3 class="mb-4">About me</h3>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ea quia sunt perferendis magnam, praesentium quasi a eos veritatis quae ipsa iure nostrum. Obcaecati commodi, cum quae unde facere veritatis.</p>
+                    <button class="dlr button button-primary p-2 px-3 px-md-5 border-0 bg-color-secondary mb-5">Download Resume</button>
+                </div>
+                <div class="col-12 col-md-6 my-photo">
+                    <div class="img-container text-center">
+                        <img src="./imgs/project-dummy-img1.webp" alt="Dummy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container text-light text-center text-md-start">
+            <div class="row">
+                <div class="col-12 col-md-6 align-self-center">
+                    <h3 class="mb-4">Reach Me Out</h3>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ea quia sunt perferendis magnam, praesentium quasi a eos veritatis quae ipsa iure nostrum. Obcaecati commodi, cum quae unde facere veritatis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, cumque.</p>
+                    <div class="links">
+                        <span class="social-links"><a href="#"></a>link</span>
+                        <span class="social-links"><a href="#"></a>link</span>
+                        <span class="social-links"><a href="#"></a>link</span>
+                        <span class="social-links"><a href="#"></a>link</span>
+                        <span class="social-links"><a href="#"></a>link</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
